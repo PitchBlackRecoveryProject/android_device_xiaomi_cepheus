@@ -9,6 +9,7 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'cepheus'
       BUILD_LUNCH: 'omni_cepheus-userdebug'
+      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack
     steps:
       - checkout
